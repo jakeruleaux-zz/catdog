@@ -3,11 +3,12 @@
   <head>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <script src="js/scripts.js"></script>
+
     <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Cat vs DoG</title>
   </head>
-  <body>
+  <body class="center-align">
     <div class="container">
       <div class="jumbotron">
         <h2>Cat Power versus..... Snoop Dogg!</h2>
@@ -18,11 +19,18 @@
           <div class="photo" id="cat">
             <img src="img/cat.jpg" alt="cat" />
           </div>
+          <div class="talk">
+            <button class="btn btn-default" id="cat-talk">Talk!</button>
+          </div>
+          <h4 id="cat-says">Cat Power says:</h4>
+
         </div>
         <div class="col-md-6">
           <div class="photo">
             <img src="img/dog.jpg" alt="dog" />
           </div>
+          <button class="btn btn-default" id="dog-talk">Talk!</button>
+          <h4 id="dog-says">Snoop Dogg says:</h4>
         </div>
       </div>
 

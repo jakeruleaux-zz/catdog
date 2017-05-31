@@ -2,7 +2,6 @@
   text-align: center;
   margin: auto;
   height: 100%;
-  border: 1px solid black;
 }
 img {
     display: block;
@@ -19,7 +18,16 @@ img {
 }
 
 .col-md-6 {
-  border: 1px solid purple;
   height: 100%;
   padding: 2%;
+}
+
+h4 {
+  text-align: center;
+}
+
+.center-align {
+  display: block;
+  text-align: center;
+  margin: auto;
 }
